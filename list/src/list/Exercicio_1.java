@@ -44,12 +44,12 @@ public class Exercicio_1 {
             Double temp = iterator.next();
             if (temp > finalMedia) {
                 switch (count) {
-                    case (0) -> System.out.println("Mês: " + (count + 1) + " JANEIRO " + temp);
-                    case (1) -> System.out.println("Mês: " + (count + 1) + " FEVEREIRO" + temp);
-                    case (2) -> System.out.println("Mês: " + (count + 1) + " MARÇO " + temp);
-                    case (3) -> System.out.println("Mês: " + (count + 1) + " ABRIL " + temp);
-                    case (4) -> System.out.println("Mês: " + (count + 1) + " MAIO " + temp);
-                    case (5) -> System.out.println("Mês: " + (count + 1) + " JUNHO " + temp);
+                    case (0) -> System.out.println("Mês: " + (count + 1) + " - JANEIRO " + temp);
+                    case (1) -> System.out.println("Mês: " + (count + 1) + " - FEVEREIRO" + temp);
+                    case (2) -> System.out.println("Mês: " + (count + 1) + " - MARÇO " + temp);
+                    case (3) -> System.out.println("Mês: " + (count + 1) + " - ABRIL " + temp);
+                    case (4) -> System.out.println("Mês: " + (count + 1) + " - MAIO " + temp);
+                    case (5) -> System.out.println("Mês: " + (count + 1) + " - JUNHO " + temp);
                     default -> System.out.println("Não houve temperatura acima da média");
                 }
             }
