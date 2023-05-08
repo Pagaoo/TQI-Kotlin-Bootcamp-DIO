@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/TQI Kotlin.iml" filepath="$PROJECT_DIR$/TQI Kotlin.iml" />
       <module fileurl="file://$PROJECT_DIR$/set/set.iml" filepath="$PROJECT_DIR$/set/set.iml" />
+      <module fileurl="file://$PROJECT_DIR$/stream/stream.iml" filepath="$PROJECT_DIR$/stream/stream.iml" />
     </modules>
   </component>
 </project>
